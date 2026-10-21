@@ -24,7 +24,7 @@
    ```
 3. Запустите на VPS, передав два домена:
    ```bash
-   bash <(curl -fsSL https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/install.sh) kone.vkvideo.download nokia.vkvideo.download
+   bash <(curl -fsSL https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/install.sh) name1.domain.com name2.domain.com
    ```
 
 ## Структура
