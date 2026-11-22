@@ -35,3 +35,7 @@
 ## Плейсхолдеры
 
 В документации используются плейсхолдеры `<ip>`, `<panel-domain>`, `<reality-domain>`, `panel.example1.domain.com`, `reality.example2.domain.com`. Реальные IP, домены и пароли в файлы не попадают.
+
+## Благодарности
+
+Этот проект — форк [3x-ui-pro](https://github.com/mozaroc/3x-ui-pro) от [mozaroc](https://github.com/mozaroc). Установку панели, REALITY и остальных протоколов выполняет его установщик `x-ui-latest.sh`. Сама панель основана на [3x-ui](https://github.com/MHSanaei/3x-ui) от [MHSanaei](https://github.com/MHSanaei). Скрипты этого репозитория добавляют к ним Hysteria2, Cloudflare WARP с fallback, DNS Quad9 DoH и первичную настройку сервера.
