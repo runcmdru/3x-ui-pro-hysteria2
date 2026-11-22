@@ -36,19 +36,18 @@ dns:
   ipv6: false
   enhanced-mode: redir-host
   default-nameserver:
-    - tls://77.88.8.8#DIRECT # Yandex DNS over TLS
-    - 195.208.4.1#DIRECT # НСДИ
+    - 1.1.1.1#DIRECT
+    - 9.9.9.9#DIRECT
     - system
   proxy-server-nameserver:
-    - tls://77.88.8.8#DIRECT # Yandex DNS over TLS
-    - 195.208.4.1#DIRECT # НСДИ
-    - system
+    - https://dns.quad9.net/dns-query#DIRECT
+    - tls://dns.quad9.net#DIRECT
   direct-nameserver:
-    - tls://77.88.8.8#DIRECT # Yandex DNS over TLS
-    - 195.208.4.1#DIRECT # НСДИ
-    - system
+    - https://dns.quad9.net/dns-query#DIRECT
+    - tls://dns.quad9.net#DIRECT
   nameserver:
-    - https://cloudflare-dns.com/dns-query#PROXY
+    - https://dns.quad9.net/dns-query#PROXY
+    - tls://dns.quad9.net#PROXY
 
 proxy-providers:
   sub:
