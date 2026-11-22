@@ -14,7 +14,7 @@
 
 set -Eeuo pipefail
 
-REPO_RAW="${REPO_RAW:-https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/3x-ui-pro-hysteria2}"
+REPO_RAW="${REPO_RAW:-https://raw.githubusercontent.com/runcmdru/3x-ui-pro-hysteria2/main/3x-ui-pro-hysteria2}"
 SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" 2>/dev/null && pwd || true)
 
 XUI_DB="/etc/x-ui/x-ui.db"
